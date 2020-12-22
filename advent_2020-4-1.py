@@ -19,6 +19,7 @@ for line in input_list:
 			passport_counter += 1
 			control_table = [0, 0, 0, 0, 0, 0, 0]
 		else :
+			control_table = [0, 0, 0, 0, 0, 0, 0]
 			continue
 	else:
 		keyword_search("ecl", 0, control_table, line)
