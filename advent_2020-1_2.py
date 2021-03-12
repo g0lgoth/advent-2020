@@ -3,7 +3,7 @@ good_year_list = []
 
 # je prends les éléments d'un fichier txt que je mets dans une liste
 # j'enlève les sauts de lignes et je transforme les éléments en integer
-with open("advent-2020_1-2_input.txt") as input_list:
+with open("advent_2020-input-1_1.txt") as input_list:
     input_list = input_list.readlines()
     input_list = [x.rstrip("\n") for x in input_list]
     input_list = [int(x) for x in input_list]
